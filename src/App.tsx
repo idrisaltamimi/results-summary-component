@@ -1,9 +1,7 @@
-import React from 'react'
-
 import { data } from './data'
 
 const App = () => {
-  console.log(data)
+
   return (
     <main className='rounded-[34px] bg-white shadow-2xl sm:grid sm:grid-cols-2'>
       <div className='px-12 pt-6 pb-10 sm:px-14 sm:pt-10 sm:pb-14 rounded-[0_0_34px_34px] sm:rounded-[34px] bg-gradient-to-b from-lightPurple to-purple text-center'>
@@ -34,7 +32,7 @@ const App = () => {
             </div>
           ))}
         </div>
-        <button className='w-full h-[56px] rounded-full bg-gradient-to-b from-lightPurple to-purple text-white font-bold'>
+        <button className='w-full h-[56px] rounded-full bg-gradient-to-b from-lightPurple to-purple text-white font-bold hover:bg-none hover:bg-[#303B59] '>
           Continue
         </button>
       </div>
