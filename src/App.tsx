@@ -17,7 +17,7 @@ const App = () => {
       </div>
 
       <div className='py-10 sm:pt-10 sm:pb-14 px-[30px] sm:px-10 w-full flex flex-col justify-between gap-6 sm:gap-0'>
-        <p className='text-black text-2xl font-bold'>Your Result</p>
+        <p className='text-black text-2xl font-bold'>Summary</p>
         <div className='flex flex-col gap-4 w-full'>
           {data.map((el, i) => (
             <div
